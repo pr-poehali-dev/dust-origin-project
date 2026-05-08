@@ -82,6 +82,19 @@ const courses = [
     border: "border-orange-500/30",
     emoji: "🎬",
   },
+  {
+    id: 7,
+    tag: "Физика",
+    title: "Пыль: физика невидимого",
+    subtitle: "Почему возникает пыль и как она влияет на всё вокруг нас",
+    duration: "4 недели",
+    students: "310",
+    level: "С нуля",
+    color: "from-stone-500/10 to-zinc-500/5",
+    accent: "text-stone-300",
+    border: "border-stone-500/30",
+    emoji: "🔬",
+  },
 ];
 
 const stats = [
@@ -374,7 +387,7 @@ const Index = () => {
             </div>
 
             <div className="flex flex-wrap gap-3 justify-center mb-16">
-              {["Все", "Дизайн", "Фотография", "Писательство", "Музыка", "Иллюстрация", "Видео"].map((tag, i) => (
+              {["Все", "Дизайн", "Фотография", "Писательство", "Музыка", "Иллюстрация", "Видео", "Физика"].map((tag, i) => (
                 <button
                   key={tag}
                   className={`px-5 py-2 rounded-full text-sm font-medium border transition-all duration-200 ${
